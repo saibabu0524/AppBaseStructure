@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     id ("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -52,4 +53,19 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+
+    //fire base
+    implementation(libs.firebase.auth)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+
+    // navigation
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.navigation.dynamic.features.fragment)
+    androidTestImplementation(libs.androidx.navigation.testing)
+
+    //retrofit
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
 }

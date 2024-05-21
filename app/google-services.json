@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4466578369",
+    "project_id": "appbasestructure",
+    "storage_bucket": "appbasestructure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4466578369:android:db54ee064c448b5d8fd540",
+        "android_client_info": {
+          "package_name": "com.saibabui.appbasestructure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD75n4QaiA4y749NAgENXWTkTxbtU1RncY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

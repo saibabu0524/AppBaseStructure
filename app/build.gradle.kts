@@ -48,6 +48,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.viewbinding)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -65,7 +66,11 @@ dependencies {
     implementation(libs.androidx.navigation.dynamic.features.fragment)
     androidTestImplementation(libs.androidx.navigation.testing)
 
-    //retrofit
-    implementation (libs.retrofit)
-    implementation (libs.converter.gson)
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+    implementation(libs.material.v1110)
+
 }
